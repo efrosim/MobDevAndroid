@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <Button android:text="ПЕРВАЯ КНОПКА" />
+        <Button android:text="ВТОРАЯ КНОПКА" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="ТРЕТЬЯ КНОПКА" />
+        <Button android:text="ЧЕТВЕРТАЯ КНОПКА" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="ПЯТАЯ КНОПКА" />
+        <Button android:text="ШЕСТАЯ КНОПКА" />
+    </TableRow>
+</TableLayout>
