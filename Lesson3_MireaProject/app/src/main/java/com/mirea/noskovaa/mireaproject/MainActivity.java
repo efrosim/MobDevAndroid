@@ -1,4 +1,4 @@
-package com.mirea.noskovaa.mireaproject; // ОСТАВЬТЕ СВОЮ СТРОЧКУ, ЕСЛИ ОНА ОТЛИЧАЕТСЯ
+package com.mirea.noskovaa.mireaproject;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,18 +25,16 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
 
-        // Связываем меню с фрагментами
+        // связываем меню с фрагментами
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_data, R.id.nav_webview)
                 .setOpenableLayout(drawer)
                 .build();
 
-        // --- ИСПРАВЛЕНИЕ ЗДЕСЬ ---
-        // Правильный способ получения NavController при использовании FragmentContainerView
+        // получение NavController при использовании FragmentContainerView
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.nav_host_fragment_content_main);
         NavController navController = navHostFragment.getNavController();
-        // -------------------------
 
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
@@ -44,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        // Здесь тоже используем безопасный метод получения NavController
+        // используем безопасный метод получения NavController
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.nav_host_fragment_content_main);
         NavController navController = navHostFragment.getNavController();
