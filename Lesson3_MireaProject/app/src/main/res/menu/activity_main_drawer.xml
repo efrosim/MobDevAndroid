@@ -9,5 +9,35 @@
             android:id="@+id/nav_webview"
             android:icon="@android:drawable/ic_menu_info_details"
             android:title="Браузер" />
+
+        <item
+            android:id="@+id/nav_worker"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Фоновая задача" />
+
+        <item
+            android:id="@+id/nav_hardware"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Аппаратные функции" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Профиль" />
+
+        <item
+            android:id="@+id/nav_file_operations"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Работа с файлами" />
+
+        <item
+            android:id="@+id/nav_network"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Сеть" />
+
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Заведения" />
     </group>
 </menu>

@@ -16,4 +16,40 @@
         android:name="com.mirea.noskovaa.mireaproject.WebViewFragment"
         android:label="Браузер"
         tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="com.mirea.noskovaa.mireaproject.WorkerFragment"
+        android:label="Фоновая задача"
+        tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/nav_hardware"
+        android:name="com.mirea.noskovaa.mireaproject.HardwareFragment"
+        android:label="Аппаратные функции"
+        tools:layout="@layout/fragment_hardware" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mirea.noskovaa.mireaproject.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_file_operations"
+        android:name="com.mirea.noskovaa.mireaproject.FileOperationsFragment"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_file_operations" />
+
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="com.mirea.noskovaa.mireaproject.NetworkFragment"
+        android:label="Сеть"
+        tools:layout="@layout/fragment_network" />
+
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="com.mirea.noskovaa.mireaproject.PlacesFragment"
+        android:label="Заведения"
+        tools:layout="@layout/fragment_places" />
 </navigation>

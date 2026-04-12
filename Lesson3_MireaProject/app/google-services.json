@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917118988994",
+    "project_id": "lesson7-firebase-mireaproject",
+    "storage_bucket": "lesson7-firebase-mireaproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917118988994:android:e2f161d8c02cf424dc415b",
+        "android_client_info": {
+          "package_name": "com.mirea.noskovaa.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPKM4Fls4fWl0nQ4TpSohIl43JXmAbIZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917118988994:android:942827d75c693661dc415b",
+        "android_client_info": {
+          "package_name": "com.mirea.noskovaa.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPKM4Fls4fWl0nQ4TpSohIl43JXmAbIZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
