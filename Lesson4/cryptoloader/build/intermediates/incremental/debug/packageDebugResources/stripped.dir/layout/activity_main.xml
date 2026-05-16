@@ -6,14 +6,14 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/editPhrase"
+        android:id="@+id/etText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введите фразу для шифрования" />
+        android:hint="Введите фразу для шифрования"/>
 
     <Button
         android:id="@+id/btnEncrypt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Зашифровать и отправить" />
+        android:text="Зашифровать и отправить"/>
 </LinearLayout>

@@ -5,10 +5,10 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id btnEncrypt
-id editPhrase
+id etText
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-style Base.Theme.Lesson4
-style Theme.Lesson4
+style Base.Theme.Lesson4_2
+style Theme.Lesson4_2

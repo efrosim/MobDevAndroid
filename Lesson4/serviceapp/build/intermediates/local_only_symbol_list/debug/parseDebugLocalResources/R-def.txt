@@ -11,5 +11,5 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 raw music
 string app_name
-style Base.Theme.Lesson4
-style Theme.Lesson4
+style Base.Theme.Lesson4_2
+style Theme.Lesson4_2

@@ -6,21 +6,21 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/editAge"
+        android:id="@+id/etAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ваш возраст (в секундах задержки)"
-        android:inputType="number" />
+        android:inputType="number"/>
 
     <EditText
-        android:id="@+id/editJob"
+        android:id="@+id/etJob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Кем вы работаете?" />
+        android:hint="Кем вы работаете?"/>
 
     <Button
-        android:id="@+id/btnSend"
+        android:id="@+id/btnProcess"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Отправить в Looper" />
+        android:text="Отправить в Looper"/>
 </LinearLayout>

@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "ru.mirea.noskovaa.looper",
+  "applicationId": "com.mirea.noskovaa.looper",
   "variantName": "debug",
   "elements": [
     {

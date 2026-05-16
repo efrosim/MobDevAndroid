@@ -11,6 +11,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
+}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -19,9 +22,9 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lesson4"
+rootProject.name = "Lesson4_2"
 include(":app")
-include(":datathread")
+include(":thread")
 include(":looper")
 include(":cryptoloader")
 include(":serviceapp")

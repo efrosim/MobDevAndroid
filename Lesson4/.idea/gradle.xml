@@ -6,15 +6,14 @@
       <GradleProjectSettings>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/cryptoloader" />
-            <option value="$PROJECT_DIR$/datathread" />
             <option value="$PROJECT_DIR$/looper" />
             <option value="$PROJECT_DIR$/serviceapp" />
+            <option value="$PROJECT_DIR$/thread" />
             <option value="$PROJECT_DIR$/workmanager" />
           </set>
         </option>

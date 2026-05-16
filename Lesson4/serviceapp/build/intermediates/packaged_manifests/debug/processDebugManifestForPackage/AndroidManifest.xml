@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.mirea.noskovaa.serviceapp"
+    package="com.mirea.noskovaa.serviceapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,14 +9,14 @@
         android:targetSdkVersion="36" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <permission
-        android:name="ru.mirea.noskovaa.serviceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.mirea.noskovaa.serviceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="ru.mirea.noskovaa.serviceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.mirea.noskovaa.serviceapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -28,9 +28,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Lesson4" >
+        android:theme="@style/Theme.Lesson4_2" >
         <activity
-            android:name="ru.mirea.noskovaa.serviceapp.MainActivity"
+            android:name="com.mirea.noskovaa.serviceapp.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,15 +39,16 @@
             </intent-filter>
         </activity>
 
+        <!-- Add android:foregroundServiceType="mediaPlayback" here -->
         <service
-            android:name="ru.mirea.noskovaa.serviceapp.PlayerService"
+            android:name="com.mirea.noskovaa.serviceapp.PlayerService"
             android:enabled="true"
-            android:exported="false"
+            android:exported="true"
             android:foregroundServiceType="mediaPlayback" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="ru.mirea.noskovaa.serviceapp.androidx-startup"
+            android:authorities="com.mirea.noskovaa.serviceapp.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

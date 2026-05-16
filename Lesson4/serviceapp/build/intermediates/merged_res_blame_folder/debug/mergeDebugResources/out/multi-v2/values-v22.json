@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "ru.mirea.noskovaa.serviceapp-mergeDebugResources-34:/values-v22/values-v22.xml",
+            "outputFile": "com.mirea.noskovaa.serviceapp-mergeDebugResources-33:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\student\\.gradle\\caches\\8.13\\transforms\\bd46825a853bfdf2e2777199389fded1\\transformed\\appcompat-1.7.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\9.2.1\\transforms\\9dbe10361cd41ede1349a7c934d629c9\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
